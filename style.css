@@ -13,53 +13,32 @@ body {
 
 .app {
     width: 100%;
-    max-width: 600px;
-    margin: 0 auto;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
 }
 
 .header {
-    padding: 18px;
+    padding: 20px;
     background: #1e293b;
-    border-bottom: 1px solid #334155;
     text-align: center;
 }
 
 .header h1 {
-    font-size: 24px;
-}
-
-.header p {
-    color: #94a3b8;
-    margin-top: 5px;
-    font-size: 14px;
+    color: #60a5fa;
+    font-size: 28px;
 }
 
 .chat {
     flex: 1;
     padding: 20px;
-    overflow-y: auto;
 }
 
 .message {
-    padding: 12px 15px;
-    margin-bottom: 12px;
-    border-radius: 14px;
-    max-width: 85%;
-    line-height: 1.5;
-}
-
-.ai {
     background: #1e293b;
-    border: 1px solid #334155;
-    margin-right: auto;
-}
-
-.user {
-    background: #2563eb;
-    margin-left: auto;
+    padding: 15px;
+    border-radius: 12px;
+    margin-bottom: 15px;
 }
 
 .input-area {
@@ -67,30 +46,22 @@ body {
     gap: 10px;
     padding: 15px;
     background: #1e293b;
-    border-top: 1px solid #334155;
 }
 
 .input-area input {
     flex: 1;
-    padding: 13px;
+    padding: 14px;
     border: none;
-    outline: none;
     border-radius: 10px;
-    background: #334155;
-    color: white;
+    outline: none;
     font-size: 16px;
 }
 
 .input-area button {
-    padding: 13px 18px;
+    padding: 14px 20px;
     border: none;
     border-radius: 10px;
     background: #2563eb;
     color: white;
     font-weight: bold;
-    cursor: pointer;
-}
-
-.input-area button:active {
-    transform: scale(0.96);
-}
+    }
